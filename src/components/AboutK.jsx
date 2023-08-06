@@ -4,26 +4,15 @@ const AboutK = () => {
   return (
     <div>
       <div className="mb-16">
+      <h2 className="text-2xl  font-semibold mb-">About Us</h2>
         <p>
-          The University Counseling Center (UCC) contributes to the overall
-          academic mission of the University of Notre Dame within the context of
-          the Division of Student Affairs. UCC staff recognizes that the stress
-          associated with a high pressure academic environment at a critical
-          developmental period often leads to or reveals problems which can be
-          alleviated through therapeutic intervention.
+        Welcome to the University Counseling Website! We are committed to promoting mental well-being and supporting the holistic development of our university community. Our platform is dedicated to providing a safe and confidential space for students, faculty, and staff to seek guidance and support for their mental health concerns.
         </p>
+        <br/>
+
+        <h2 className="text-2xl  font-semibold mb-2">Our Mission</h2>
         <p>
-          Our mission is to provide counseling and crisis intervention to the
-          students of the University, consultation services to the campus
-          community, and supervision and training opportunities for future
-          psychologists. While sensitive to the unique characteristics of an
-          intelligent, highly motivated, predominantly Catholic student body, we
-          remain committed to the practice of psychology as determined by the
-          ethical code of the American Psychological Association and the laws of
-          the state of Indiana. We affirm diversity and are committed to
-          creating an environment that recognizes the inherent value and dignity
-          of each person. All UCC services are confidential, free, and available
-          to all enrolled undergraduate and graduate students.
+        At the University Counseling Website, our mission is to foster an inclusive and compassionate environment that empowers individuals to navigate life's challenges effectively. We aim to create a supportive community where everyone feels valued and heard, promoting personal growth and academic success.
         </p>
       </div>
       <div className="w-[70%] grid mb-16  grid-cols-2 ">
@@ -42,7 +31,7 @@ const AboutK = () => {
           duration={500}
         >
           {" "}
-          Release of Information &darr;
+          Nature of Counselling &darr;
         </Hash>
         <Hash
           className="p-3 rounded-md cursor-pointer hover:bg-primary-300 ease-in duration-200 hover:scale-95"
@@ -51,50 +40,25 @@ const AboutK = () => {
           duration={500}
         >
           {" "}
-          Consultation & Outreach &darr;
+          Consultation Services &darr;
         </Hash>
       </div>
       <section className="text-primary-100 mb-14" id="CTT">
         <h1 className="text-4xl font-semibold">Consent to Treatment</h1>
         <p>
-          The UCC works to be transparent in the services we offer and to
-          empower students to take an active role in the counseling process. To
-          this end, all students seeking services at the UCC are asked to read
-          and sign our informed consent form. This helps to protect your rights
-          and inform you about how the UCC works and what to expect in
-          counseling. Students are asked to read and sign the consent to
-          treatment form prior to receiving services. Reading this form in
-          advance of seeking services for the first time can help to expedite
-          your Drop-In appointment. Students who receive telehealth counseling
-          are required to sign an additional consent form.
+        Thank you for considering counseling services through the University Counseling Website. Before proceeding, we want to ensure that you are fully informed and comfortable with the counseling process. Your well-being and privacy are of utmost importance to us, and obtaining your consent is an essential part of the counseling experience.
         </p>
       </section>
       <section className="text-primary-100  mb-14" id="ROI">
-        <h1 className="text-4xl font-semibold">Release of Information</h1>
+        <h1 className="text-4xl font-semibold">Nature of Counselling</h1>
         <p>
-          All treatment at the UCC is confidential. With a student’s written
-          permission, in the form of a signed Release of Information Form (ROI),
-          the UCC is able to share information about the student’s care with a
-          specific person or agency, including a campus partner, off-campus
-          provider, parent/guardian, etc. A ROI includes the person to whom the
-          information will be released, the information to be released, the
-          purpose of the release, and an expiration date. If there is a valid
-          ROI on-file with the UCC, we will be able to process a request to
-          share information. If a request involves coordination of care with a
-          new provider, a new ROI must be completed. If a ROI is expired it must
-          be updated before information can be released. Students can retract a
-          ROI at any time by contacting the UCC. Please note that the UCC does
-          not email clinical records. Please provide a fax number to ensure
-          timely delivery of your records. A blank ROI as well as pre-populated
-          ROI forms that are commonly utilized are provided here for your
-          convenience. Simply download the ROI that you need, complete the form,
-          sign it, and return a copy to the UCC.
+        Counseling is a collaborative and confidential process that involves open communication and active participation. During counseling sessions, you will have the opportunity to explore your thoughts, feelings, and concerns in a safe and supportive environment. Our professional counselors are here to listen, understand, and help you work through any challenges you may be facing.
         </p>
       </section>
       <section className="text-primary-100  mb-14" id="CO">
-        <h1 className="text-4xl font-semibold">Consultation & Outreach</h1>
+        <h1 className="text-4xl font-semibold">Consultation Services</h1>
         <p>
-        The Student Health and Wellness Unit, which includes the UCC, University Health Services, the Center for Student Support and Care, and the McDonald Center for Student Well-Being, are all committed to supporting University programs designed to create an atmosphere conducive to the well-being, personal growth, and mental health of Notre Dame students. To help achieve this goal, the departments in the Student Health and Wellness Unit are available to provide various outreach and consultation programs that promote student health and well-being, including group presentations, workshops, and panels to any University employee, student, or organization. If you are interested, please complete this form to request a program, so that we can best meet your outreach needs.
+        At the University Counseling Website, we offer consultation services for individuals seeking professional advice or guidance on mental health-related matters. Our consultation services are designed to provide support and insights to help you navigate challenges, make informed decisions, and enhance your overall well-being.
         </p>
       </section>
     </div>

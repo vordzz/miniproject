@@ -4,7 +4,7 @@ const HeroBg = () => {
   return (
     <>
        <div
-        className="absolute top-[32%] left-0 w-full h-[260px] "
+        className="absolute top-[25%] left-0 w-full h-[260px] "
         style={{
           backgroundImage: 'url("img/KnustR.jpg")',
           backgroundSize: "cover",

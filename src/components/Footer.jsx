@@ -10,14 +10,15 @@ const Footer = () => {
         {/* left side of footer */}
         <div className="px-4 col-span-2 ">
           <h3 className="text-4xl mb-3 font-semibold">
-            Knust Counseling Center
+            University Counseling Center
           </h3>
           <div className="flex  gap-6">
             <p className=" text-sm">
-              St. Liam Hall, Third Floor <br />
-              Notre Dame, IN 46556 USA <br />
-              Phone 574-631-7336 <br />
-              Fax 574-631-5643
+              University Counselling Center <br />
+              Dean of Students, J. Harper Building <br />
+              P.M.B University Post Office <br />
+              Kumasi, Ghana, West Africa <br />
+              Phone Number: +233 50 644 9747
             </p>
 
             <div className="flex flex-col gap-2">
@@ -43,7 +44,7 @@ const Footer = () => {
           </div>
           <p className="text-sm text-center mt-4">
             {" "}
-            &copy; {currentYear} Knust Counseling Center
+            &copy; {currentYear} University Counseling Center
           </p>
         </div>
         {/* right side of footer */}
@@ -52,10 +53,10 @@ const Footer = () => {
             <Image src="/img/knustlogo.png" alt="logo" width="70" height="70" />
             <span>
               <p className="text-white font-Rakkas text-xs">
-                Kwame Nkrumah University of science and Technology
+                Kwame Nkrumah University of Science and Technology
               </p>
               <h1 className="text-white font-bold font-Rakkas text-lg">
-                Knust Counseling Center
+                University Counseling Center
               </h1>
             </span>
           </div>

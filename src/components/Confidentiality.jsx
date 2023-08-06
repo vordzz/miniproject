@@ -6,52 +6,19 @@ const Confidentiality = () => {
       <h1 className="text-5xl mb-10 font-semibold">Confidentiality</h1>
       <div className="mb-8">
         <p>
-          As mental health care providers, the University Counseling Center
-          (UCC) staff are ethically and legally required to uphold standards of
-          confidentiality. Students utilizing our services have a right to
-          confidentiality and to expect that their involvement with the UCC and
-          information shared in the context of counseling will be protected.
-          Confidentiality is very important to the success of the therapeutic
-          process and we take it very seriously.
-        </p>
+        At the Counseling Center, your privacy and confidentiality are of utmost importance to us. We are committed to ensuring a safe and confidential space for individuals seeking support and guidance for their mental health and personal well-being. Our counseling services are governed by a strict confidentiality policy that adheres to professional ethical standards and legal requirements.
+        </p> <br/>
         <p>
-          Confidentiality of our services means the UCC will not release any
-          information about a student’s involvement in counseling without a
-          signed release of information form. There are several exceptions to
-          confidentiality that students need to be aware of. The UCC is required
-          to release information without a student’s authorization: (a) if we
-          believe that a child or vulnerable adult is being or has been
-          subjected to abuse or neglect, we may be required to file a report
-          with the appropriate government agency; (b) if we believe you are a
-          danger to yourself, we are obligated to seek hospitalization or to
-          contact others who can help provide protection; (c) if we believe you
-          are a threat to others, we are required to take protective actions
-          which may include notifying the potential victim, contacting the
-          police, or seeking hospitalization for you; or (d) as otherwise
-          required by law. The exceptions to confidentiality are rare. If any of
-          these exceptions should occur, it is the UCC's policy that, whenever
-          possible, we will discuss any action being considered with you.
-        </p>
+        All information shared during counseling sessions, whether in-person or online, is treated with the highest level of confidentiality. This includes all verbal communication, written records, and any other forms of communication exchanged during the counseling process. Our counselors prioritize safeguarding the privacy of your thoughts, emotions, and experiences.
+        </p> <br/>
         <p>
-          Please be aware the UCC and University Health Services (UHS) operate
-          as a team of health care professionals and in signing our Consent To
-          Treatment Form, you give the departments permission to consult with
-          each other to provide you with the best care possible. These
-          consultations are for treatment and/or professional training purposes
-          only. Information will not be disclosed to any University department
-          or outside agency beyond the UCC and UHS without your written
-          permission.
-        </p>
+        Our counseling team upholds a strong commitment to professional ethics. We strictly adhere to the ethical guidelines set forth by reputable counseling associations and regulatory bodies. Confidentiality is an integral aspect of our ethical practice, and our counselors undergo rigorous training to ensure they maintain confidentiality at all times.
+        </p> <br/>
         <p>
-          For students under the age of 18, Indiana law requires that a parent
-          or guardian give permission for you to receive mental health treatment
-          services. he UCC will work with you to obtain this consent.
-        </p>
+        Your trust is central to the counseling process. We are dedicated to creating a supportive and empathetic environment where you can explore your thoughts, feelings, and concerns with confidence. We are committed to fostering an atmosphere of trust and confidentiality, empowering you to work towards your personal growth and well-being.
+        </p> <br/>
         <p>
-          All UCC records are separate from any other student records at the
-          University, and no record of a student’s contact with the UCC is
-          placed on any transcript or academic record. A student’s UCC records
-          are destroyed 7 years after the last date of service.
+        If you have any further questions or require clarification regarding our confidentiality policy, please do not hesitate to reach out to our counseling team. Thank you for entrusting the Counseling Center with your mental health support needs. We are here to support you on your journey towards healing and resilience.
         </p>
       </div>
     </div>

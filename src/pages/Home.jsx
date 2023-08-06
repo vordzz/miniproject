@@ -38,11 +38,11 @@ const Home = () => {
           Our services are confidential <br /> and free
         </p>
         <span className="text-lg font-medium">
-          Call us: <span className="font-bold"> 544-631-7336 </span> <br />
+          Call us: <span className="font-bold"> +233 50 644 9747 </span> <br />
           Visit us:{" "}
           <span className="font-bold">
             {" "}
-            Lorem ipsum dolor sit, <br /> Hall{" "}
+            Dean of Students, J. Harper Building{" "}
           </span>
         </span>
 
@@ -58,28 +58,13 @@ const Home = () => {
           Announcements:
         </h3>
         <p className="text-base font-semibold mb-5 text-[#333]">
-          <span className="leading-8">
-            Adjusted drop-in times /adjusted office hours for Summer 2023 are
-            listed below:
-          </span>
-          <br />
-          <span className="leading-8">
-            As of Tuesday, May 30, the office will be closed at 4:30 pm.
-          </span>
-          <br />
-          <span className="leading-8">
-            The office will be CLOSED on the following dates:
-          </span>
+          
         </p>
 
-        <p className="text-base text-[#333333] ">
-          Wednesday, August 2 all day
-          <br />
-          Thursday, August 3 - the UCC will close at 11:30 am - no Drop-in hours
-        </p>
+       
 
         <h4 className=" text-[#333] font-semibold my-2">
-          Drop-in hours (Tuesday, May 30 - Friday, July 28){" "}
+          Drop-in hours {" "}
         </h4>
 
         <ul className="mb-12">
@@ -101,7 +86,7 @@ const Home = () => {
           group and individual counseling, psychiatric care for medication
           management, and referrals to off-campus treatment providers. All UCC
           services are confidential, free, and available to all degree-seeking
-          students currently enrolled at the University of Notre Dame.
+          students currently enrolled at the Kwame Nkrumah University of Science and Technology.
         </p>
       </div>
     </>

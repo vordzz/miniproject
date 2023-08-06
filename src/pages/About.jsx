@@ -7,6 +7,8 @@ const Mos = lazy(() => import("../components/Mos"));
 const Contact = lazy(() => import("../components/AboutContact"));
 const Confidentiality = lazy(() => import("../components/Confidentiality"));
 
+
+
 const About = () => {
   const [about, setAbout] = useState("about");
 

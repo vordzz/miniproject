@@ -1,7 +1,6 @@
 import React, { lazy, Suspense } from "react";
 const Home = lazy(() => import("./pages/Home"));
 const Contact = lazy(() => import("./pages/Contact"));
-const NewsEvents = lazy(() => import("./pages/NewsEvents"));
 const SelfHelp = lazy(() => import("./pages/SelfHelp"));
 const Layout = lazy(() => import("./components/Layouts"));
 const About = lazy(() => import("./pages/About"));
@@ -23,7 +22,6 @@ const App = () => {
               <Route path="/" element={<Home />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/self-help" element={<SelfHelp />} />
-              <Route path="/news-events" element={<NewsEvents />} />
               <Route path="/about" element={<About />} />
             </Routes>
           </Layout>

@@ -16,11 +16,6 @@ export const Links = [
     },
     {
       id: 3,
-      src: "/news-events",
-      name: "Events",
-    },
-    {
-      id: 4,
       src: "/about",
       name: "About",
     },

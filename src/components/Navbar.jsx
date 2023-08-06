@@ -14,10 +14,10 @@ const Navbar = () => {
             <Image src="/img/knustlogo.png" alt="logo" width="70" height="70" />
             <span>
               <p className="text-white font-Rakkas text-xs">
-                Kwame Nkrumah University of science and Technology
+                Kwame Nkrumah University of Science and Technology
               </p>
               <h1 className="text-white font-bold font-Rakkas text-lg">
-                Knust Counseling Center
+                University Counseling Center
               </h1>
             </span>
           </div>
