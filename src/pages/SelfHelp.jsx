@@ -1,47 +1,41 @@
-import React, { useState, lazy } from "react";
-import { useNavigate } from "react-router-dom";
-const HeroBg = lazy(() => import("../components/heroBackground"));
-const Help = lazy(() => import("../components/help"));
-const Resources = lazy(() => import("../components/Resources"));
-const SelfHelp = () => {
-  const navigate = useNavigate();
-  const [help, setHelp] = useState("self");
-  const content = help === "self" ? <Help /> : <Resources />;
+import { Link, useLocation } from "react-router-dom";
+
+function SelfHelp({ children }) {
+  const location = useLocation();
+
   return (
     <>
-   
       <div className="z-50 mt-14 mb-12 grid grid-cols-4">
         <div>
-        <ul>
-            <li onClick={ ()=> setHelp('r')} className=" text-xl hover:bg-primary-300 p-2 cursor-pointer   text-primary-100">
-              Recommended Resources
-            </li>
-          
+          <ul>
+            <Link to={"/self-help/resources"}>
+              <li className=" text-xl hover:bg-primary-300 p-2 cursor-pointer   text-primary-100">
+                Recommended Resources
+              </li>
+            </Link>
           </ul>
         </div>
         <div className=" p-2 col-span-3">
           <ul className="flex gap-2 mb-12">
-            <li
-              onClick={() => navigate("/")}
-              className="text-xs cursor-pointer  "
-            >
-              <span className="hover:underline ">Home</span> &gt;
+            <li className="text-xs cursor-pointer  ">
+              <a href="/" className="hover:underline ">
+                Home
+              </a>{" "}
+              &gt;
             </li>
-            {help === "self" ? null : (
+            {location.pathname === "/self-help/resources" && (
               <span
                 onClick={() => setHelp("self")}
-                className="text-xs hover:underline  cursor-pointer"
-              >
-                About
+                className="text-xs hover:underline  cursor-pointer">
+                self-help
               </span>
             )}
           </ul>
-          {content}
+          {children}
         </div>
-
       </div>
     </>
   );
-};
+}
 
 export default SelfHelp;

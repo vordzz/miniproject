@@ -1,11 +1,6 @@
-import React from 'react'
-import BookingForm from '../components/BookingForm'
-const Contact = () => {
-  return (
-    <div className=''>
-      <BookingForm/>
-    </div>
-  )
-}
+import BookingForm from "../components/BookingForm";
 
-export default Contact
+function Contact() {
+  return <BookingForm />;
+}
+export default Contact;
