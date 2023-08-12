@@ -1,34 +1,77 @@
-import React, { lazy, Suspense } from "react";
-const Home = lazy(() => import("./pages/Home"));
-const Contact = lazy(() => import("./pages/Contact"));
-const SelfHelp = lazy(() => import("./pages/SelfHelp"));
-const Layout = lazy(() => import("./components/Layouts"));
-const About = lazy(() => import("./pages/About"));
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const App = () => {
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import SelfHelp from "./pages/SelfHelp";
+import Layout from "./components/Layouts";
+import About from "./pages/About";
+
+import Help from "./components/help";
+import Resources from "./components/Resources";
+import AboutK from "./components/AboutK";
+import Confidentiality from "./components/Confidentiality";
+import Mos from "./components/Mos";
+
+function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Suspense
-          fallback={
-            <>
-              <h1>Loading...</h1>
-            </>
-          }
-        >
-          <Layout>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/self-help" element={<SelfHelp />} />
-              <Route path="/about" element={<About />} />
-            </Routes>
-          </Layout>
-        </Suspense>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route
+            path="self-help"
+            element={
+              <SelfHelp>
+                <Help />
+              </SelfHelp>
+            }
+          />
+          <Route
+            path="self-help/resources"
+            element={
+              <SelfHelp>
+                <Resources />
+              </SelfHelp>
+            }
+          />
+
+          <Route
+            path="/about"
+            element={
+              <About>
+                <AboutK />
+              </About>
+            }
+          />
+          <Route
+            path="/about/confidentiality"
+            element={
+              <About>
+                <Confidentiality />
+              </About>
+            }
+          />
+          <Route
+            path="/about/contact"
+            element={
+              <About>
+                <Contact />
+              </About>
+            }
+          />
+          <Route
+            path="/about/staff"
+            element={
+              <About>
+                <Mos />
+              </About>
+            }
+          />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
-};
+}
 
 export default App;
